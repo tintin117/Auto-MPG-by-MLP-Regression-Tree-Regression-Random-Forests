@@ -216,7 +216,7 @@ print('Regression Tree score: ' + str(model_regressionTree.score(X_valid, y_vali
 model_regressionRandomForest = RandomForestRegressor(criterion='mse', max_depth=4,
                                              random_state=0, n_estimators=300)
 model_regressionRandomForest.fit(X_train, y_train)
-print('Regression Tree score: ' + str(model_regressionRandomForest.score(X_valid, y_valid)))
+print('Regression Random Forest score: ' + str(model_regressionRandomForest.score(X_valid, y_valid)))
 
 # feature importance
 def drawFeatureImportance(model, title, n_top):
