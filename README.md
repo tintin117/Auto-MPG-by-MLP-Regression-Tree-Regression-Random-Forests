@@ -8,4 +8,4 @@
 | **Discussion** |Which model return the better resuls? <br/> How to improve the other models? <br/> How to tuning the hyper parameters in models? |
 | **Future**     |Applying the decision tree method into business problems (Predict Efficiency).<br/> Use other methods like: XGBoost, Reinforcement learning,...<br/> Use tuning methods like: gridsearchcv, pruning... |
 |**References**  |[1] https://machinelearningcoban.com/2018/01/14/id3/ <br/> [2]https://towardsdatascience.com/random-forest-and-its-implementation-71824ced454f <br/> [3] https://www.youtube.com/watch?v=g9c66TUylZ4 <br/> [4] https://www.kaggle.com/arunkumarramanan/data-science-python-fuel-efficiency-prediction|
-| **Results**    | |
+| **Results**    |MLP: Testing set Mean Abs Error:  2.04 MPG <br/> Regression Tree score: 0.8772300290913486 <br/> Regression Random Forest score: 0.9084957992180025 |
